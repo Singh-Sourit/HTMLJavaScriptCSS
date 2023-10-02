@@ -1,0 +1,82 @@
+
+ 
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            display: flex;
+            justify-content:left-side;
+            align-items: left-side;
+            
+	
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+		
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+            padding: ;
+            width: 300px;
+			 height: 70vh;
+			align-items:top;
+            text-align: left-side;
+			
+			
+		}
+
+.profile-card{
+    width: 100%;
+    max-width: 350px;
+	height:100%;
+    text-align: center;
+	align-items:left-side;
+    background: #E5E4E2;
+    color: #333;
+
+}
+.cover-pic{
+    display:block;
+	
+}
+
+.profile-pic
+{
+width:190px;
+border-radius:50%;
+margin-top:-60px;
+box-shadow: 0 0 0 0px #ff004f;
+transition: box-shadow 0.5s;
+align-items:top;
+}
+
+.profile-pic :hover{
+    box-shadow: 0 0 0 5px #ff004f;
+
+}
+
+.profile-card h1{
+    font-weight: 600;
+
+}
+.follow-btn{
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #ff004f;
+    color: #555;
+    padding :6px 35px;
+    margin:25px 0;
+}
+
+.row
+{
+    display:flex;
+    justify-content:space-around;
+	
+
+}
+.row h6{
+ font-weight: 400;
+ font-size: 20px;
+}
