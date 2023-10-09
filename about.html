@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placify About</title>
+      <style>
+	*{
+	  margin:0;
+	  paddng:0;
+	  }
+	  .header{
+	  min-height:100vh;
+	  width:100%;
+	  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(SSR73.png);
+	  
+	  background-position:center;
+	  background-size:cover;
+	  position:relative;
+	  }
+	  nav{
+	  display:flex;
+	  padding:2% 6%;
+	  justify-content:space-between;
+	  align-items:top;
+	  }
+	  nav img{
+	        width:65px;
+			
+	  }
+	  .nav-links{
+	          flex:1;
+	          text-align:right;
+	 }
+	 .nav-links ul li{
+	          list-style:none;
+	          display:inline-block;
+	          padding:8px 12px;
+	            position:relative;
+	 }
+	 .nav-links ul li a{
+	 color:#fff;
+	 text-decoration:none;
+	 font-size:13px;
+	 }
+	 .nav-links ul li::after{
+	 content:'';
+	 width:0%;
+	 height:2px;
+	 background:#745469;
+	 display:block;
+	 margin:auto;
+	 transition:0.3s;
+	 }
+	 .nav-links ul li:hover::after{
+	 width:100%;
+	 }
+	 .text-box{
+	 width:90%;
+	 color:#fff;
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 text-align:center;
+	 }
+	 .text-box h1{
+	 font-size:62px;
+	 }
+	 .text-box p{
+	 margin:10px 0 40px;
+	 font-size:14px;
+	 color:#fff;
+	 }
+	 
+	 @media(max-width: 700px){
+	 .text-box h1{
+	 font-size:20px;
+	 }
+	 .nav-links ul li{
+	 display:block;
+	 }
+	 .nav-links{
+	 position:absolute;
+	 background:#745469;
+	 height:100vh;
+	 width:200px;
+	 top:0;
+	 right:0;
+	 text-align:left;
+	 z-index:2;
+	 }
+	 }
+	 
+	.comp{
+	 width:100%;
+	 margin:auto;
+	 text-align:center;
+	 padding-top:100px;
+	 }
+	 
+	 .comp1{
+	 width:100%;
+	 margin:auto;
+	 text-align:center;
+	 padding-top:50px;
+	 }
+	 
+	 .comp2{
+	 width:100%;
+	 margin:auto;
+	 text-align:center;
+	 padding-top:50px;
+	 }
+	 
+	 h1{
+	 font-size:36px;
+	 font-weight:600;
+	 }
+	 
+	 p{
+	 color:#000000;
+	 font-size:14px;
+	 font-weight:300;
+	 line-height:22px;
+	 paddding:10px;
+	 margin-top:10px;
+	 }
+	 
+	
+	 
+	 .row{
+	 margin-top:1%;
+	 display:flex;
+	 justify-content:space-between;
+	 }
+	 
+	 .comp-col{
+	 flex-basis:31%;
+	 background:#fff9f3;
+	 border-radius:5px;
+	 margin-bottom:auto;
+	 margin-right:15px;
+	 paddding:20px 12px;
+	 box-sizing:border-box;
+	 transition:0.5s;
+	 }
+	 
+	 .comp1-col{
+	 flex-basis:31%;
+	 background:#fff9f3;
+	 border-radius:5px;
+	 margin-bottom:auto;
+	 margin-right:15px;
+	 paddding:20px 12px;
+	 box-sizing:border-box;
+	 transition:0.5s;
+	 }
+	 
+	 .comp2-col{
+	 flex-basis:31%;
+	 background:#fff9f3;
+	 border-radius:5px;
+	 margin-bottom:auto;
+	 margin-right:15px;
+	 paddding:20px 12px;
+	 box-sizing:border-box;
+	 transition:0.5s;
+	 }
+	 
+	 
+	 
+	 h3{
+	 text-align:center;
+	 font-weight:600;
+	 margin:10px 0;
+	 
+	 }
+	 .comp-col:hover{
+	 box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+	 }
+	 .comp1-col:hover{
+	 box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+	 }
+	 
+	 .comp2-col:hover{
+	 box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+	 }
+	  .hero-btn1{
+	 display: inline-block;
+	 text-decoration:none;
+	 color:#000000;
+	 border:#fff9f3;
+	 paddding:12px 34px;
+	 font-size:13px;
+	 background:#fff9f3;
+	 position:relative;
+	 cursor:pointer;
+	 }
+	.header1{
+	  min-height:50vh;
+	  width:100%;
+	  margin-top:15px;
+	  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+	  background-position:center;
+	  background-size:cover;
+	  position:relative;
+	  }
+	 
+	 
+	 
+	  
+	  </style>
+	</head>
+	<body>
+<section class="header">
+	<nav>
+	<a href="home1.html"><img src="SSR2.jpeg" height="50"></a>
+	<div class="nav-links">
+	
+	<ul>
+	<li><a href="home1.html">HOME</a></li>
+	<li><a href="dashboard.html">DASHBOARD</a></li>
+	<li><a href="new 1.html">LOGOUT</a></li> 
+	</ul>
+	</div>
+	</nav>
+	<div class="text-box">
+	<h1>One of the best and most trusted portal</h1>
+	<p> This is a one of the most trusted and user-friendly portal for recruitement process and also connect you with best Companies.</p>
+	
+	</div>
+	
+	</section>
+	<section class="comp">
+	<h1>Featured Placement Consultant</h1>
+	<p>Best MNC's For you only</p>
+	
+	<div class="row">
+	<div class="comp-col">
+	<img src="google.png" height="50">
+	<h3>Google</h3>
+	<a href="https://www.google.com/about/careers/applications/" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp-col">
+	<img src="dell.png" height="50">
+	<h3>Dell</h3>
+	<a href="https://jobs.dell.com/?source=rd_google_paid_search&utm_source=google.com&utm_medium=paid_search&utm_
+	campaign=India&utm_content=search_engine&utm_term=366732691&ss=paid&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp_QM4W8eZR6ubnpQpEKHSRJTC21UbUh_mGX63CmofWMN4_OP2NActoaAoCrEALw_wcB" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp-col">
+	<img src="hp.png" height="50">
+	<h3>HP</h3>
+	<a href="https://jobs.hp.com/" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp-col">
+	<img src="samsung.jpg" height="50">
+	<h3>Samsung</h3>
+	<a href="https://www.samsung.com/in/about-us/careers/?cid=in_pd_ppc_google_im-all-all-all-dtc_sales_samsung-allproducts-all-2023_eshop-text-dsa_01jan2023-na_1ur-501336l-2023-eshop-bau-dsa-cpc
+	_pfm-614139100219-17924215676-140077037736-dsa-546668199249----g--&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp-oe69SLpHmfdbCR75R10yqopTMKQFFqWnqU36pdJc2qL4I750XoTEaAl3-EALw_wcB" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp-col">
+	<img src="lenovo.png" height="50">
+	<h3>Lenovo</h3>
+	<a href="https://jobs.lenovo.com/en_US/careers" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp-col">
+	<img src="oneplus.png" height="50">
+	<h3>One plus</h3>
+	<a href="https://en.wikipedia.org/wiki/Oneplus" class="hero-btn1">Visit</a>
+	</div>
+	</div>
+	</section>
+	
+	
+	<section class="comp1">
+	<div class="row">
+	<div class="comp1-col">
+	<img src="capgemini.png" height="50">
+	<h3>Capgemini </h3>
+	<a href="https://en.wikipedia.org/wiki/Capgemini" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp1-col">
+	<img src="C:\Users\asus\Desktop\New folder (4)\deloitte.png" height="50">
+	<h3>Deloitte</h3>
+	<a href="https://en.wikipedia.org/wiki/Deloitte" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp1-col">
+	<img src="BM.png" height="50">
+	<h3>IBM</h3>
+	<a href="https://en.wikipedia.org/wiki/IBM" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp1-col">
+	<img src="tcs.png" height="45" width="45">
+	<h3>TCS</h3>
+	<a href="https://en.wikipedia.org/wiki/Tata_Consultancy_Services"class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp1-col">
+	<img src="crompton.png" height="50">
+	<h3>Crompton</h3>
+	<a href="https://en.wikipedia.org/wiki/Crompton"class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp1-col">
+	<img src="HCL.png" height="50">
+	<h3>HCL</h3>
+	<a href="https://en.wikipedia.org/wiki/HCL" class="hero-btn1">Visit</a>
+	</div>
+	</div>
+	
+	</section>
+	
+	
+	<section class="comp2">
+	<div class="row">
+	<div class="comp2-col">
+	<img src="Havells.png" height="50">
+	<h3>Havells</h3>
+	<a href="https://en.wikipedia.org/wiki/Havells" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp2-col">
+	<img src="cadbuary.png" height="50">
+	<h3>Cadbuary</h3>
+	<a href="https://en.wikipedia.org/wiki/Cadbuary" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp2-col">
+	<img src="Asus.png" height="50">
+	<h3>Asus</h3>
+	<a href="https://en.wikipedia.org/wiki/Asus" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp2-col">
+	<img src="lg.png" height="50">
+	<h3>LG</h3>
+	<a href=""https://en.wikipedia.org/wiki/LG"" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp2-col">
+	<img src="god.png" height="50">
+	<h3>Godrej</h3>
+	<a href="https://en.wikipedia.org/wiki/Godrej" class="hero-btn1">Visit</a>
+	</div>
+	<div class="comp2-col">
+	<img src="Whrlpool.jpg" height="50">
+	<h3>Whirlpool</h3>
+     <a href="https://www.whirlpoolcareers.com/" class="hero-btn1">Visit</a>
+	</div>
+	</div>
+	
+	</section>
+
+
+	<section class="header1">
+	<div class="text-box">
+	<h2>Why Placify?</h2>
+	<p>
+	Placify.com is India's foremost Online Placement Portal, catering to multifarious job seekers as well as recruiters in India. When it comes to searching jobs in India,  the name Placify.com serves as a preferred Indian Jobs Site. 
+	The reputed players of the modern corporate world frequently browse through the portal to hire professionals from different industrial segments.
+    As a leading job portal Placify.com always helps jobseekers, mainly freshers to find the latest jobs according to their qualification in all possible fields in top MNC Companies across India. 
+	Now Placify has become the largest online job portal for job seekers, and has the biggest network of recruiters and companies in all possible fields for resume search and free job posting.</p>
+	</div>
+	</section>
+	
+	
+	
+	
+	</body>
+	</html>
+	
